@@ -1,0 +1,181 @@
+MACHINE LEARNING BASICS – PRACTICE NOTES
+
+Machine Learning (ML) is a subset of Artificial Intelligence (AI) that focuses on enabling systems to learn patterns from data and make predictions or decisions without being explicitly programmed.
+
+The core idea of machine learning is that instead of writing rules manually, we provide data and allow algorithms to learn relationships automatically.
+
+--------------------------------------------------
+TYPES OF MACHINE LEARNING
+--------------------------------------------------
+
+There are three main types of machine learning:
+
+1. Supervised Learning
+2. Unsupervised Learning
+3. Reinforcement Learning
+
+--------------------------------------------------
+SUPERVISED LEARNING
+--------------------------------------------------
+
+Supervised learning uses labeled data, meaning the input data is paired with the correct output.
+
+Example:
+Input: House size, number of rooms
+Output: House price
+
+Common supervised learning tasks:
+- Classification: Predicting categories or labels
+- Regression: Predicting continuous numerical values
+
+Examples of classification:
+- Spam vs Non-spam email
+- Fraud vs Non-fraud transaction
+
+Examples of regression:
+- Predicting house prices
+- Predicting sales revenue
+
+Common supervised algorithms:
+- Linear Regression
+- Logistic Regression
+- Decision Trees
+- Random Forest
+- Support Vector Machines (SVM)
+- K-Nearest Neighbors (KNN)
+- Naive Bayes
+
+--------------------------------------------------
+UNSUPERVISED LEARNING
+--------------------------------------------------
+
+Unsupervised learning works with unlabeled data. The algorithm tries to discover hidden patterns or structures.
+
+Common unsupervised tasks:
+- Clustering
+- Dimensionality Reduction
+- Anomaly Detection
+
+Examples:
+- Customer segmentation
+- Grouping similar documents
+- Detecting unusual transactions
+
+Common unsupervised algorithms:
+- K-Means Clustering
+- Hierarchical Clustering
+- DBSCAN
+- Principal Component Analysis (PCA)
+- Autoencoders
+
+--------------------------------------------------
+REINFORCEMENT LEARNING
+--------------------------------------------------
+
+Reinforcement learning involves an agent interacting with an environment to maximize cumulative reward.
+
+Key components:
+- Agent: The learner or decision-maker
+- Environment: The system the agent interacts with
+- Action: A move taken by the agent
+- Reward: Feedback from the environment
+- Policy: Strategy used by the agent
+
+Examples:
+- Game playing (Chess, Go)
+- Robotics
+- Recommendation systems
+
+--------------------------------------------------
+MODEL TRAINING PROCESS
+--------------------------------------------------
+
+The general machine learning workflow includes:
+
+1. Data Collection
+2. Data Cleaning
+3. Exploratory Data Analysis (EDA)
+4. Feature Engineering
+5. Model Selection
+6. Model Training
+7. Model Evaluation
+8. Model Deployment
+
+--------------------------------------------------
+TRAIN-TEST SPLIT
+--------------------------------------------------
+
+Data is usually split into:
+- Training set (used to train the model)
+- Testing set (used to evaluate performance)
+
+Common split ratios:
+- 80% train / 20% test
+- 70% train / 30% test
+
+--------------------------------------------------
+EVALUATION METRICS
+--------------------------------------------------
+
+For classification:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- ROC-AUC
+
+For regression:
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- Mean Absolute Error (MAE)
+- R-squared
+
+--------------------------------------------------
+OVERFITTING AND UNDERFITTING
+--------------------------------------------------
+
+Overfitting occurs when a model performs very well on training data but poorly on unseen data.
+
+Underfitting occurs when a model is too simple and fails to capture patterns in the data.
+
+Common solutions:
+- Regularization
+- Cross-validation
+- More data
+- Feature selection
+
+--------------------------------------------------
+FEATURE ENGINEERING
+--------------------------------------------------
+
+Feature engineering is the process of transforming raw data into meaningful input features.
+
+Examples:
+- Scaling numerical values
+- Encoding categorical variables
+- Creating interaction features
+- Handling missing values
+
+--------------------------------------------------
+BATCH VS ONLINE LEARNING
+--------------------------------------------------
+
+Batch Learning:
+- Model is trained on the entire dataset at once
+
+Online Learning:
+- Model is updated incrementally as new data arrives
+
+--------------------------------------------------
+REAL-WORLD APPLICATIONS
+--------------------------------------------------
+
+Machine learning is used in:
+- Recommendation systems
+- Fraud detection
+- Medical diagnosis
+- Image recognition
+- Natural language processing
+- Autonomous vehicles
+
+END OF NOTES
